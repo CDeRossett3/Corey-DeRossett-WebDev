@@ -5,9 +5,32 @@
 :root {
     --primary: #000080;
     --secondary: #DB7210;
-    /* need tertiary color */
-    --dark: black;
-    --light: white;
+    --tertiary: #70798C;
+    --dark: rgb(49, 44, 44);
+    --light: rgb(238, 227, 227);
 }
 
 /* added a root style for the whole page */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: var(--primary);
+}
+
+nav {
+    margin: 30px 25px 0 0;
+}
+
+nav a {
+    color: var(--secondary);
+    font-size: large;
+    padding-left: 5px;
+}
+
+h1 {
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding-left: 25px;
+}
