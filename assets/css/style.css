@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #000080;
+    --secondary: #DB7210;
+    /* need tertiary color */
+    --dark: black;
+    --light: white;
+}
+
+/* added a root style for the whole page */
